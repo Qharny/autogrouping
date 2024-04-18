@@ -1,0 +1,11 @@
+## TASK TODO
+- [ ] Prompt User to select the data type:
+    - [ ] 1. file (it should read an external file)
+    - [ ] 2. Strings
+    - [ ] 3. Number / Integers
+    - [ ] 4. And so on
+
+- [ ] Prompt user to input number of group
+- [ ] Prompt user to input number of entities in a group
+- [ ] Prompt user to wait (Please wait... Your grouping will be done soon)
+- [ ] Print grouping in an external file

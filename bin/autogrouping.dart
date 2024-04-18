@@ -1,5 +1,5 @@
-import 'package:autogrouping/autogrouping.dart' as autogrouping;
+// import 'package:autogrouping/autogrouping.dart' as autogrouping;
 
-void main(List<String> arguments) {
-  print('Hello world: ${autogrouping.calculate()}!');
-}
+// void main(List<String> arguments) {
+//   print('Hello world: ${autogrouping.calculate()}!');
+// }

@@ -13,7 +13,7 @@ Before running the program, make sure you have the following installed:
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/Qharny/autogrouping
+    git clone https://github.com/Qharny/autogrouping.git
     ```
 
 2. Navigate to the project directory:

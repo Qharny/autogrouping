@@ -4,15 +4,15 @@ import 'dart:io';
 List<dynamic> readFromFile() {
   // Read data from an external file
   stdout.write('Enter the name of the file: ');
-  var fileName = stdin.readLineSync()!;
+  var filename = stdin.readLineSync()!;
 
   // error handling for the file
   try {
-    var file = File(fileName);
-    var data = file.readAsStringSync();
-    return data.split(' ');
+    var file = File(filename);
+    var lines = file.readAsLinesSync();
+    return lines;
   } catch (e) {
-    print('Error: $e');
+    print('Error reading file: $e');
     return [];
   }
 }

@@ -2,7 +2,6 @@
 //   return 6 * 7;
 // }
 
-import 'dart:ffi';
 import 'dart:io';
 
 void main(List<String> args) {
@@ -68,15 +67,15 @@ List<String> readStrings() {
 }
 
 // function for accepting intergers
-List<Int> readNumbers() {
-  List<Int> numbers = []; // list to store numbers
+List<int> readNumbers() {
+  List<int> numbers = []; // list to store numbers
   while (true) {
     stdout.write('Enter the numbers (type 0 to stop): ');
     int inputNum = int.parse(stdin.readLineSync()!);
     if (inputNum == 0) {
       break;
     }
-    numbers.add(inputNum as Int);
+    numbers.add(inputNum);
   }
   return numbers;
 }

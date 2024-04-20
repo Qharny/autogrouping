@@ -19,7 +19,8 @@ jobs:
       - name: Setup Dart SDK
         uses: dart-lang/setup-dart@v1 # Use the setup-dart action to install the Dart SDK
         with:
-          dart-sdk-version: '3.3.3' 
+          sdk: 'dart'
+          version: '3.3.3'
           # Specify the Dart SDK version to install
 
       - name: Install dependencies

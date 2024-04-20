@@ -37,11 +37,11 @@ void prompt() {
   var numOfGroups = int.parse(stdin.readLineSync()!);
 
   stdout.write("Enter number of entities in each group: ");
-  var GroupEntities = int.parse(stdin.readLineSync()!);
+  var groupEntities = int.parse(stdin.readLineSync()!);
 
   print("Please wait... Your grouping will be done soon");
 
-  var groupedData = groupData(inputData, numOfGroups, GroupEntities);
+  var groupedData = groupData(inputData, numOfGroups, groupEntities);
   storeDataToFile(groupedData, 'output.txt');
 
   print('Grouping Completed. Check output.txt for the result.');
